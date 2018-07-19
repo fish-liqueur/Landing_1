@@ -1,0 +1,398 @@
+body {
+    min-width: 319px;
+}
+.logo {
+    background: url("../img/logo.jpg") 0 0 no-repeat;
+    width: 108px;
+    height: 42px;
+    margin: 18px 0;
+    display: block;
+}
+
+.callme {
+    background-color: #fff;
+    text-transform: uppercase;
+    border: 1px #d88c68 solid;
+    color: #d88c68;
+    font-size: 12px;
+    padding: 10px 18px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+
+.header-email i, .header-email a, .header-phone i, .header-phone a {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.header-email i, .header-phone i {
+    color: #d88c68;
+    font-size: 14px;
+    padding-right: 8px;
+}
+
+.header-email a, .header-phone a {
+    color: #575757;
+    text-decoration: none;
+
+
+}
+
+.header-email a {
+    font-size: 12px;
+}
+
+.header-phone a {
+    font-size: 14px;
+}
+
+.header-contacts {
+    margin: auto 0;
+}
+
+.header-email, .header-phone, .callme {
+    white-space: nowrap;
+}
+
+
+
+.navbar-full-width {
+    width: 100%;
+    justify-content: space-around;
+}
+
+
+
+.navbar-main {
+    background-color: #4f5356;
+}
+
+.navbar-main a {
+    color: #ced2d5 !important;
+}
+
+.navbar-main a:hover {
+    color: #ffffff !important;
+}
+
+.three-buttons-block-row {
+    margin: 0;
+
+}
+
+.three-buttons-block {
+    background: url("../img/airport.jpg") 50% 50% no-repeat;
+    background-size: cover;
+    padding: 0 -15px;
+    text-align: center;
+}
+
+.three-buttons-block > div {
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;  
+    width: 170px;
+
+}
+
+.button-goto {
+    background-color: transparent;
+    text-transform: uppercase;
+    border: 2px #d88c68 solid;
+    color: #fff;
+    padding: 10px 18px;
+    border-radius: 2px;
+    font-size: 10px;
+    margin: 15px 0;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+
+
+.about-company-main {
+    text-align: center;
+}
+
+h1, h2 {
+    font-size: 10px;
+    margin: 15px 0;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #49474a;
+}
+
+.about-company div:first-child {
+    text-align: right;
+
+}
+
+.about-company div:first-child img {
+
+}
+
+.about-company div:last-child {
+    font-size: 10px;
+
+    font-weight: 700;
+    color: #49474a;
+}
+
+.orange-icons {
+
+    line-height: 10px;
+    text-align: center;
+
+}
+
+.orange-icons div a {
+    color: #d88c68;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 10px;
+
+}
+.orange-icons > div > div > img {
+    padding-bottom: 5px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.bt-plane a {
+    background: url("../img/producticon-1.jpg") 50% 0 no-repeat;
+}
+
+.bt-heli a {
+    background: url("../img/producticon-2.jpg") 50% 0 no-repeat;
+}
+
+.bt-jetpack a {
+    background: url("../img/producticon-3.jpg") 50% 0 no-repeat;
+}
+
+.bt-fence a {
+    background: url("../img/producticon-4.jpg") 50% 0 no-repeat;
+}
+
+.bt-brass a {
+    background: url("../img/producticon-5.jpg") 50% 0 no-repeat;
+}
+
+.bt-textile a {
+    background: url("../img/producticon-6.jpg") 50% 0 no-repeat;
+}
+
+.bt-pizza a {
+    background: url("../img/producticon-7.jpg") 50% 0 no-repeat;
+}
+
+.bt-carrots a {
+    background: url("../img/producticon-8.jpg") 50% 0 no-repeat;
+}
+
+.bt-uni a {
+    background: url("../img/producticon-9.jpg") 50% 0 no-repeat;
+}
+
+.product-box a {
+    padding-top: 110px;
+    display: block;
+    text-align: center;
+    margin: 0 auto 10px auto;
+    width: 130px;
+    color: #d88c68;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: 700;
+
+}
+
+.airport-two {
+    position: relative;
+    margin-top: 15px;
+
+}
+
+.airport-two::after {
+    content: "";
+    background: url(../img/airport2.jpg) 50% 50% no-repeat;
+    background-size: cover;
+    opacity: 1;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -2;  
+
+}
+
+.airport-two::before {
+    content: "";
+
+    opacity: 0.9;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;  
+    background-color: #eee;
+}
+
+#gallery img {
+    max-width: 100%;
+    max-height: 642px;
+    margin: 15px auto 0 auto;
+}
+
+#gallery > button:before {
+    color: #d88c68;
+}
+
+.footer {
+    background-color: #4f5356;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.footer > div {
+    text-align: left;
+    color: #ced2d5;
+
+}
+
+.footer > div > ul > li > a {
+    color: #ced2d5;
+    font-size: 12px;
+
+}
+
+.footer > div > ul > li {
+    list-style: none;
+
+}
+
+.footer > div > ul {
+    padding-left: 0;
+}
+
+h3 {
+    font-size: 18px;
+    padding: 10px 0 0 0;
+}
+
+.social-bottom {
+    background-color: #4f5356;
+    text-align: center;
+    padding: 15px 0;   
+    color: #ced2d5;
+    font-size: 10px;
+    line-height: 10px;
+}
+
+.social {
+    font-size: 25px;
+}
+
+
+
+@media (max-width: 575px) {
+    .header-email, .header-phone {
+        padding: 0;
+    }
+    .navbar-main {
+        margin-top: 16px;
+    }
+    .three-buttons-block {
+        height: 316px;
+    }
+    .three-buttons-block > div {
+        margin: 10px auto 0 auto;
+    }
+    #gallery img {
+        max-height: 162px;
+    }
+    .social {
+        margin: 5px auto;
+    }
+    .footer > div {
+        text-align: center;
+    }
+}
+
+@media (min-width: 576px) {
+    .three-buttons-block {
+        display: inline-table;
+        height: 275px;
+    }
+    .three-buttons-block > div {
+        display: table-cell;
+        vertical-align: bottom;
+    }
+    .callme {
+        margin-top: 18px;
+    }
+    .conditions-and-policy > div {
+        margin-top: auto;
+    }
+
+    .social-bottom > div {
+        margin-top: auto;
+    }
+}
+
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .header-contacts {
+        padding: 0;
+    }
+    .contacts-parent {
+        padding: 16px;
+    }
+    #gallery img {
+        max-height: 286px;
+    }
+}
+
+@media (min-width: 768px) {
+    .header-contacts {
+        display: inline;
+    }
+    .about-company div:first-child img {
+        text-align: right;
+        padding: 35px 15px 15px 0;
+    }
+    .about-company div:last-child {
+        padding: 35px 15px 15px 0;
+        text-align: left;
+    }
+}
+
+@media (max-width: 767px) {
+    .about-company div:first-child {
+        text-align: center;
+        padding: 10px 15px 15px 0;
+    }
+    .about-company div:last-child {
+        padding: 10px 15px 15px 0;
+        text-align: center;
+    }
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {
+    #gallery img {
+        max-height: 523px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    #gallery img {
+        max-height: 388px;
+    }
+}
+
