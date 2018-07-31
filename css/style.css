@@ -2,7 +2,7 @@ body {
     min-width: 319px;
 }
 .logo {
-    background: url("../img/logo.jpg") 0 0 no-repeat;
+    background: url("../img/logo.png") 0 0 no-repeat;
     width: 108px;
     height: 42px;
     margin: 18px 0;
@@ -228,12 +228,10 @@ h2 {
     right: 0;
     position: absolute;
     z-index: -2;  
-
 }
 
 .airport-two::before {
     content: "";
-
     opacity: 0.9;
     top: 0;
     left: 0;
